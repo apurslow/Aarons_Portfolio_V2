@@ -13,6 +13,7 @@ import DynamicPlatforms from "../example/DynamicPlatforms";
 import ShotCube from "../example/ShotCube";
 import { useControls } from "leva";
 import CharacterModel from "./CharacterModel";
+import Crash from "./Crash";
 
 export default function Experience() {
   /**
@@ -66,7 +67,8 @@ export default function Experience() {
             autoBalanceDampingC={0.04}
           >
             {/* Replace your model here */}
-            <CharacterModel />
+            <Crash />
+
           </Ecctrl>
         </KeyboardControls>
 
